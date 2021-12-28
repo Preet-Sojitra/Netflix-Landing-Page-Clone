@@ -1,0 +1,354 @@
+@media (max-width: 720px){
+    /* header */
+    .container{
+        height: 168vw;
+    }
+    .overlay{
+        height: 168vw;
+    }
+
+    /* Main page */
+    .section-center{
+        margin-top: 13vw;
+    }
+    .main-title{
+        margin: 0px;
+        font-size: 8vw;
+    }
+    .shows-title{
+        font-size: 8vw;
+    }
+    .watchanytime-heading{
+        font-size: 5vw;
+    }
+    .email-container{
+        width: 70vw;
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    /* Getting Started */
+    .email-input{
+        flex-direction: column;
+        align-items: center;
+    }
+    .email{
+        width: 70vw;
+        padding: 12px 13px;
+    }
+    .btn{
+        margin-top: 0.7rem;
+        width: 40vw;
+    }
+    .btn > a {
+        font-size: 5vw;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .angle-right{
+        font-size: 7vw;
+        margin-right: 8px;
+        margin-top: 2px;
+    }
+
+        /* Levels */
+    .flex-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text-container{
+        margin-left: 0;
+        width: 80vw;
+    }
+    .para-container{
+        margin: 5vw 0;
+        text-align: center;
+    }
+    .level-heading{
+        font-size: 8vw;
+    }
+    .level-para{
+        font-size: 4vw;
+    }
+    .flex-container-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Level-1 */
+    .img1-container{
+        margin-left: 0;
+    }
+    .img-1{
+        width: 80vw;
+        height: 70vw;
+    }
+    /* Level-2 */
+    .img2-container{
+        margin-left: 0;
+    }
+    .img-2{
+        width: 100vw;
+        height: 75vw;
+        margin-top: 7vw;
+        padding-bottom: 0;
+    }
+    .text-container-2{
+        margin-left: 0;
+        width: 80vw;
+        text-align: center;
+    }
+    .para-container2{
+        margin: 5vw 0;
+    }
+    /* Level-3 */
+    .img-3{
+        width: 80vw;
+        height: 70vw;
+    }
+    /* Level-4 */
+    .img-4{
+        width: 84vw;
+        height: 70vw;
+        margin-top: 5vw;
+        margin-left: 7vw;
+    }
+    .text-container-4{
+        width: 80vw;
+        margin: 5vw 0;
+        text-align: center;
+    }
+
+    /* FAQ section */
+    .faq-heading{
+        font-size: 7vw;
+        margin: 10vw 3vw;
+    }
+    .questions{
+        width: 80vw;
+        padding: 3vw 5vw;
+    }
+    .question-title{
+        width: 60vw;
+    }
+    .answer{
+        width: 80vw;
+        padding: 17px 5vw;
+    }
+    /* Getting Started (part-2)  */
+    .watch-text{
+        width: 90vw;
+        text-align: center;
+        margin-top: 8vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    /* Footer */
+    .footer-center{
+        margin-left: 10vw;
+        width: 80vw;
+    }
+    .call{
+        width: 100vw;
+    }
+    .footer-links{
+        grid-template-columns: repeat(auto-fit, minmax(142px, 1fr));
+    }
+}
+
+@media (min-width: 500px) and (max-width:600px){
+    .container{
+        height: 137vw;
+    }
+    .overlay{
+        height: 137vw;
+    }
+    /* Main-page */
+    .main-title{
+        font-size: 9vw;
+    }
+    .shows-title{
+        font-size: 9vw;
+    }
+    .btn > a{
+        margin-top: 1vw;
+    }
+    .angle-right{
+        margin-right: 2vw;
+    }
+}
+
+@media (min-width: 600px) and (max-width:720px){
+    .container{
+        height: 113vw;
+    }
+    .overlay{
+        height: 113vw;
+    }
+}
+
+@media (max-width:485px){
+    .logo{
+        width: 30vw;
+    }
+    .buttons-container{
+        width: 205px;
+        margin-right: 10px;
+    }
+    .two-buttons{
+        justify-content: space-between;
+    }
+    .dropdown{
+        margin-right: 0;
+    }
+    .sign-in{
+        margin-left: 0;
+    }
+}
+@media (min-width:485px) and (max-width:680px){
+    .logo{
+        width: 30vw;
+    }
+    .buttons-container{
+        width: 250px;
+    }
+}
+
+@media (min-width: 720px) and (max-width:800px){
+    .container{
+        height: 94vw;
+    }
+    .overlay{
+        height: 94vw;
+    }
+    /* Getting Started */
+    .email{
+        width: 50vw;
+    }
+    .btn{
+        width: 30vw;
+    }
+}
+@media (min-width: 720px) and (max-width:1100px){
+        /* Main Page */
+    .main-title{
+        width: 80vw;
+        font-size: 8vw;
+    }
+    .shows-title{
+        font-size: 8vw;
+    }
+    /* Levels */
+    .flex-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text-container{
+        margin-left: 0;
+    }
+    .para-container{
+        margin: 0;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+        text-align: center;
+    }
+    .flex-container-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Level-1 */
+    .img1-container{
+        margin-left: 0;
+    }
+    /* Level-2 */
+    .img2-container{
+        margin-left: 0;
+    }
+    .img-2{
+        padding-bottom: 0;
+    }
+    .para-container2{
+        margin: 0;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+    }
+    .text-container-2{
+        margin-left: 0;
+        width: 80vw;
+        text-align: center;
+    }
+    /* Level-4 */
+    .text-container-4{
+        width: 80vw;
+        margin: 5vw 0;
+        text-align: center;
+    }
+    /* FAQ Section */
+    .questions{
+        width: 70vw;
+    }
+    .answer{
+        width: 70vw;
+    }
+    .email{
+        width: 50vw;
+    }
+    /* Footer */
+    .footer-center{
+        margin-left: 15vw;
+        width: 85vw;
+    }
+}
+
+@media (min-width: 1100px) and (max-width:1480px){
+    /* Levels */
+    .flex-container{
+        justify-content: center;
+    }
+    .flex-container-2{
+        justify-content: center;
+    }
+    .text-container{
+        margin-left: 0;
+    }
+    .para-container{
+        margin-left: 1vw;
+        width: 40vw;
+    }
+    /* Level-1 */
+    .img1-container{
+        margin-left: 3vw;
+    }
+    .img-1{
+        width: 480px;
+        height: 400px;
+    }
+    /* Level-2 */
+    .img2-container{
+        margin-left: 2vw;
+    }
+    .text-container-2{
+        width: 45vw;
+    }
+    .para-container2{
+        margin-left: 1vw;
+        margin-right: 4vw;
+    }
+    /* Level-4 */
+    .img-4{
+        margin-left: 3vw;
+        margin-top: 2vw;
+        margin-bottom: 3vw;
+    }
+    .text-container-4{
+        margin-left: 0;
+        width: 46vw;
+    }
+    .para-container4{
+        margin-top: 9vw;
+    }
+    /* Footer */
+    .footer-center{
+        margin-left: 16vw;
+        width: 70vw;
+    }
+}
